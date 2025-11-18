@@ -8,6 +8,7 @@
   </head>
 
   <body>
+    <script src="script.js"></script>
     <section>
       <h1>
         Hi! I'm<br />
@@ -17,23 +18,6 @@
         I like making
         <button id="myThing" onclick="cycle()">websites</button>
       </p>
-
-      <script>
-        const favouriteThings = [
-          "games",
-          "API wrappers",
-          "libraries",
-          "websites",
-        ];
-        let currentIndex = favouriteThings.length - 1;
-
-        function cycle() {
-          const element = favouriteThings[currentIndex];
-          currentIndex = (currentIndex + 1) % favouriteThings.length;
-
-          document.getElementById("myThing").innerText = element;
-        }
-      </script>
     </section>
   </body>
 </html>
