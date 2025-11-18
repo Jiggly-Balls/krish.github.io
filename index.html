@@ -13,7 +13,27 @@
         Hi! I'm<br />
         <img src="assets/krish.svg" />
       </h1>
-      <p>I like making <span>websites</span> <button>></button></p>
+      <p>
+        I like making
+        <button id="myThing" onclick="cycle()">websites</button>
+      </p>
+
+      <script>
+        const favouriteThings = [
+          "games",
+          "API wrappers",
+          "libraries",
+          "websites",
+        ];
+        let currentIndex = favouriteThings.length - 1;
+
+        function cycle() {
+          const element = favouriteThings[currentIndex];
+          currentIndex = (currentIndex + 1) % favouriteThings.length;
+
+          document.getElementById("myThing").innerText = element;
+        }
+      </script>
     </section>
   </body>
 </html>
