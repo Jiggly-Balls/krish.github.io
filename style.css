@@ -56,12 +56,12 @@ img {
 @keyframes animate {
   0% {
     filter: drop-shadow(0px 0px 1px #fff) drop-shadow(0px 0px 2px #fff)
-      drop-shadow(0px 0px 5px #e3ff44);
+      drop-shadow(0px 0px 5px rgb(255, 189, 89));
   }
 
   100% {
     filter: drop-shadow(0px 0px 2px #fff) drop-shadow(0px 0px 4px #fff)
-      drop-shadow(0px 0px 7px #e3ff44);
+      drop-shadow(0px 0px 7px rgb(255, 189, 89));
   }
 }
 
