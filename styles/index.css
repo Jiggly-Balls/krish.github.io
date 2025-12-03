@@ -8,39 +8,38 @@ body {
   color: white;
   font-family: "Courier New", Courier, monospace;
   background-color: var(--background-colour);
-  margin-left: 75px;
-  margin-right: 75px;
-  margin-top: 75px;
-  margin-bottom: 300px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 10rem;
 }
 
 section {
-  margin-top: 75px;
+  margin-top: 4rem;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.2rem;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 2.3rem;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 1.7rem;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
 #myThingsPara {
-  font-size: 25px;
+  font-size: 1.7rem;
 }
 
 button {
   color: white;
-  font-size: 25px;
+  font-size: 1.3rem;
   font-family: "Courier New", Courier, monospace;
   background-color: transparent;
   cursor: pointer;
@@ -51,7 +50,7 @@ button {
 }
 
 img {
-  padding-top: 25px;
+  padding-top: 2rem;
   stroke: #fff;
   width: 210px;
   animation-name: animate;
@@ -76,36 +75,36 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 3rem;
 }
 
 .card {
   display: flex;
-  width: 325px;
+  width: 20rem;
   background-color: var(--foreground-colour);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0px 2px 4px var(--shadow-colour);
-  margin: 20px;
+  margin: 2rem;
   flex-direction: column;
 }
 
 .card-content {
   color: black;
-  padding: 15px;
+  padding: 1rem;
   flex-grow: 1;
 }
 
 .card-content h3 {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .card-footer .btn {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   background-color: var(--background-colour);
   border-radius: 4px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
   color: white;
 }
