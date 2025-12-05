@@ -1,6 +1,6 @@
 :root {
   --background-colour: rgb(22, 22, 22);
-  --foreground-colour: rgb(255, 189, 89);
+  --foreground-colour: rgb(160, 144, 255);
   --shadow-colour: rgb(0, 0, 0, 0.2);
 }
 
@@ -31,6 +31,10 @@ h3 {
 
 p {
   font-size: 1.3rem;
+}
+
+a {
+  text-decoration-line: none;
 }
 
 #myThingsPara {
@@ -99,12 +103,19 @@ img {
   margin-top: 1rem;
 }
 
+.card-footer {
+  display: block;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
 .card-footer .btn {
-  display: inline-block;
+  display: block;
+  text-align: center;
   padding: 0.5rem 1rem;
   background-color: var(--background-colour);
   border-radius: 4px;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0.5rem;
   color: white;
 }
