@@ -168,6 +168,7 @@ button {
   line-height: 1.5;
   font-size: 15px;
   margin-left: 5px;
+  margin-bottom: 20px;
 }
 
 .exp-text {
@@ -183,6 +184,16 @@ button {
 .external-link-icon:hover {
   fill: #ddd;
   transform: scale(1.1);
+}
+
+.work-button {
+  display: block;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--foreground-colour);
+  border-radius: 4px;
+  margin-top: 0.3rem;
+  color: rgb(0, 0, 0);
 }
 
 @media (max-width: 600px) {
