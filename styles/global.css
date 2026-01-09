@@ -1,13 +1,12 @@
 :root {
   --background-colour: rgb(22, 22, 22);
-  --foreground-colour: rgb(231, 177, 58);
 }
 
 body {
   color: white;
   font-family: "Courier New", Courier, monospace;
   background-color: var(--background-colour);
-  margin: 5rem;
+  margin: 5rem 15rem;
 }
 
 section {
@@ -32,16 +31,4 @@ p {
 
 a {
   text-decoration-line: none;
-}
-
-.rectangle-divider {
-  height: 1rem;
-  border-radius: 7px;
-  background-color: var(--foreground-colour);
-  border-color: var(--foreground-colour);
-  margin: 10px 0px;
-}
-
-.work-exp-description {
-  margin-top: 5rem;
 }

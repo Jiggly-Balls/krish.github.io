@@ -1,0 +1,15 @@
+:root {
+  --foreground-colour: rgb(231, 177, 58);
+}
+
+.rectangle-divider {
+  height: 1rem;
+  border-radius: 7px;
+  background-color: var(--foreground-colour);
+  border-color: var(--foreground-colour);
+  margin: 10px 0px;
+}
+
+.work-exp-description {
+  margin-top: 5rem;
+}
