@@ -13,5 +13,14 @@
   border-radius: 7px;
   background-color: var(--foreground-colour);
   border-color: var(--foreground-colour);
-  margin: 10px 0px 100px 0px;
+  margin: 3rem 0px 7rem 0px;
+}
+
+.back-link-button {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--foreground-colour);
+  border-radius: 4px;
+  margin-top: 7rem;
+  color: rgb(0, 0, 0);
 }
