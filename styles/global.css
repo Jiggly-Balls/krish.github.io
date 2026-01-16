@@ -38,3 +38,7 @@ a {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.embedded-para {
+  font-size: 1.2rem;
+}
