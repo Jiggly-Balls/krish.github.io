@@ -34,10 +34,6 @@ a {
   text-decoration-line: none;
 }
 
-a:link {
-  color: rgb(30, 128, 207);
-}
-
 .justified-para {
   text-align: justify;
   text-justify: inter-word;
